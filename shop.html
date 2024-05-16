@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Khayr illustrates</title>
+    <link rel="stylesheet" type="text/css" href="search/search.css"/>
+    <link rel="stylesheet" type="text/css" href="/generic/normalise.css"/>
+    <link rel="stylesheet" type="text/css" href="/generic/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="/mobile-nav/mobile-nav.css"/>
+    <link rel="stylesheet" type="text/css" href="/generic/nav-bar.css"/>
+    <link rel="stylesheet" type="text/css" href="/shop/shop.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+    <script src="https://kit.fontawesome.com/844ea3cb4e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <div class="header-margin">
+    <header class="nav-container">
+      <!-- Mobile Navigation bar -->
+      <div id="mobile-menu-visibility">
+        <div id="mobile-menu" class="mobile-menu">
+          <div id="mobile-menu-button">
+            <div class="line1" id="a"></div>
+            <div class="line2" id="b"></div>
+            <div class="line3" id="c"></div>
+          </div>
+          <nav
+            id="mobile-options-container"
+            class="mobile-options-container"
+          >
+            <h1 class="mobile-menu-header" id="mobile-menu-header">Navigation</h1>
+            <a class="mobile-menu-options" href="index.html">Portfolio</a>
+            <a class="mobile-menu-options" href="shop.html">Shop</a>
+            <a class="mobile-menu-options" href="about-us.html">About us</a>
+            <a class="mobile-menu-options" href="contact-us.html">Contact us</a>
+          </nav>
+        </div>
+      </div>
+      <!-- Interactive Search -->
+      <div class="search">
+          <div id="search-btn" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <input id="search-field" class="search-field" type="search" placeholder="Search"/>
+          <div id="close-search-bar" class="close-search-bar"><i class="fa-solid fa-xmark"></i></div>
+      </div>
+      <!--shopping cart-->
+      <div class="cart">
+        <i class="bi bi-cart4"></i>
+        <div id="cartAmount" class="cartAmount">0</div>
+      </div>
+    </header>
+    <div class="logo-wrap"><a class="logo-anchor" href="index.html"><img class="logo" src="/images/logo.png"></a></div>
+    <div class="icon-wrap">
+      <!-- Navigation Items -->
+        <nav class="nav-options">
+            <a href="index.html">Portfolio</a>
+            <a href="shop.html">Shop</a>
+            <a href="about-us.html">About us</a>
+            <a href="contact-us.html">Contact us</a>
+        </nav>
+      </div>
+  </div>
+  <div class="shop" id="shop">
+
+  </div>
+</body>
+<footer>
+  <div class="footer-container">
+      <h1 class="footer-header">Subscribe</h1>
+      <div class="form">
+        <input type="email" id="subs-input" class="subs-input" autocomplete="off" placeholder=" ">
+        <label for="subs-input" class="subs-label">Email</label>
+        <button class="subs-button" for="subs-input" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <nav class="nav-options">
+        <a href="about-us.html">About us</a>
+        <a href="contact-us.html">Contact us</a>
+        <a href="">Shipping & returns</a>
+      </nav>
+  </div>
+</footer>
+<script src="search/search-functions.js"></script>
+<script src="/mobile-nav/mobile-nav.js"></script>
+<script src="/shop/shop.js"></script>
+</html>

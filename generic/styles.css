@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cardo, serif";
+    /* font-family: "Exo 2", sans-serif; */
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+html {
+    /* background: linear-gradient(to bottom, #cdb4db, #a2d2ff); */
+    background-color: #f5ebe0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100%;
+    width: 100%; */
+    background-attachment: fixed;
+}
+
+body {
+    position: relative;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.context {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.context p {
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.context h1 {
+    text-align: center;
+}

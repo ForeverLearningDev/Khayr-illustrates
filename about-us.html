@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Khayr illustrates</title>
+    <link rel="stylesheet" type="text/css" href="search/search.css"/>
+    <link rel="stylesheet" type="text/css" href="/generic/normalise.css"/>
+    <link rel="stylesheet" type="text/css" href="/generic/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="/mobile-nav/mobile-nav.css"/>
+    <link rel="stylesheet" type="text/css" href="/generic/nav-bar.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+    <script src="https://kit.fontawesome.com/844ea3cb4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header-margin">
+        <header class="nav-container">
+          <!-- Mobile Navigation bar -->
+          <div id="mobile-menu-visibility">
+            <div id="mobile-menu" class="mobile-menu">
+              <div id="mobile-menu-button">
+                <div class="line1" id="a"></div>
+                <div class="line2" id="b"></div>
+                <div class="line3" id="c"></div>
+              </div>
+              <nav
+                id="mobile-options-container"
+                class="mobile-options-container"
+              >
+                <h1 class="mobile-menu-header" id="mobile-menu-header">Navigation</h1>
+                <a class="mobile-menu-options" href="index.html">Portfolio</a>
+                <a class="mobile-menu-options" href="shop.html">Shop</a>
+                <a class="mobile-menu-options" href="about-us.html">About us</a>
+                <a class="mobile-menu-options" href="contact-us.html">Contact us</a>
+              </nav>
+            </div>
+          </div>
+          <!-- Interactive Search -->
+          <div class="search">
+              <div id="search-btn" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+              <input id="search-field" class="search-field" type="search" placeholder="Search"/>
+              <div id="close-search-bar" class="close-search-bar"><i class="fa-solid fa-xmark"></i></div>
+          </div>
+          <!--shopping cart-->
+          <div class="cart">
+            <i class="bi bi-cart4"></i>
+            <div id="cartAmount" class="cartAmount">0</div>
+          </div>
+        </header>
+        <div class="logo-wrap"><a class="logo-anchor" href="index.html"><img class="logo" src="/images/logo.png"></a></div>
+        <div class="icon-wrap">
+          <!-- Navigation Items -->
+            <nav class="nav-options">
+                <a href="index.html">Portfolio</a>
+                <a href="shop.html">Shop</a>
+                <a href="about-us.html">About us</a>
+                <a href="contact-us.html">Contact us</a>
+            </nav>
+          </div>
+      </div>
+    <div class="context">
+        <h1> About Us</h1>
+        <p>
+            Welcome to [Website Name], where faceless illustrations speak volumes in their silent storytelling. 
+            Our platform is a haven for artists who specialize in the art of capturing emotion, personality, 
+            and narrative without the need for facial features.
+        </p>
+        <p>
+            At [Website Name], we believe in the profound impact of anonymity in art. 
+            Every faceless figure is a canvas upon which stories unfold, emotions resonate, and connections are forged. 
+            Through the absence of facial expressions, our artists invite viewers to explore universal themes, delve into personal reflections, 
+            and discover the beauty of human experience in its purest form.
+        </p>
+        <p>
+            Founded on the belief that simplicity can be profoundly evocative, [Website Name] showcases a diverse array of faceless illustrations, 
+            each offering a glimpse into the rich tapestry of human existence. 
+            From moments of joy and sorrow to expressions of resilience and vulnerability, 
+            our collection captures the essence of what it means to be human—stripped bare of superficial distractions.
+        </p>
+        <p>
+            Beyond serving as a gallery of captivating artwork,
+            [Website Name] is a community—a place where artists and admirers alike can come together to celebrate the power of visual storytelling. 
+            Whether you're drawn to the enigmatic allure of faceless characters or simply seeking inspiration for your own creative endeavors, 
+            you'll find a welcoming space here among fellow appreciators of this unique art form.
+        </p>
+        <p>
+            Join us in exploring the limitless possibilities of faceless illustration. 
+            Immerse yourself in a world where expression knows no bounds, and where the absence of features speaks volumes. 
+            Welcome to [Website Name]—where every faceless figure has a story to tell, and where every story invites you to see beyond the surface.
+        </p>
+    </div>
+</body>
+<footer>
+    <div class="footer-container">
+        <h1 class="footer-header">Subscribe</h1>
+        <div class="form">
+          <input type="email" id="subs-input" class="subs-input" autocomplete="off" placeholder=" ">
+          <label for="subs-input" class="subs-label">Email</label>
+          <button class="subs-button" for="subs-input" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <nav class="nav-options">
+          <a href="about-us.html">About us</a>
+          <a href="contact-us.html">Contact us</a>
+          <a href="">Shipping & returns</a>
+        </nav>
+    </div>
+  </footer>
+<script src="search/search-functions.js"></script>
+<script src="/mobile-nav/mobile-nav.js"></script>
+</html>
