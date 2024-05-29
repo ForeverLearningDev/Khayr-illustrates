@@ -35,7 +35,7 @@
 }
 
 .nav-options a:hover {
-    font-size: 1.1em;
+    text-decoration: underline;
 }
 
 footer {
@@ -149,7 +149,7 @@ footer {
     position: relative;
     display: flex;
     padding: 1px 2px 1px 2px;
-    border: solid 2px black;
+    /* border: solid 2px black; */
     justify-content: center;
     align-items: center;
     height: 35px;
@@ -176,6 +176,18 @@ footer {
     right: -8px;
     padding: 3px;
     border-radius: 3px;
+}
+
+.cartAmount.empty {
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    position:absolute;
+    top:-20px;
+    right: -8px;
+    padding: 3px;
+    border-radius: 3px;
+    display: none;
 }
 
 @media (max-width:681px) {

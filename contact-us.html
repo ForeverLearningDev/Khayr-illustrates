@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/generic/styles.css"/>
     <link rel="stylesheet" type="text/css" href="/mobile-nav/mobile-nav.css"/>
     <link rel="stylesheet" type="text/css" href="/generic/nav-bar.css"/>
+    <link rel="stylesheet" type="text/css" href="basket-summary.css">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
     <script src="https://kit.fontawesome.com/844ea3cb4e.js" crossorigin="anonymous"></script>
@@ -32,7 +33,7 @@
                 <a class="mobile-menu-options" href="index.html">Portfolio</a>
                 <a class="mobile-menu-options" href="shop.html">Shop</a>
                 <a class="mobile-menu-options" href="about-us.html">About us</a>
-                <a class="mobile-menu-options" href="contact-us.html">Contact us</a>
+                <a class="mobile-menu-options" href="contact-us.html" style="text-decoration: underline;">Contact us</a>
               </nav>
             </div>
           </div>
@@ -52,13 +53,34 @@
         <div class="icon-wrap">
           <!-- Navigation Items -->
             <nav class="nav-options">
-                <a href="index.html">Portfolio</a>
+                <a href="index.html" >Portfolio</a>
                 <a href="shop.html">Shop</a>
                 <a href="about-us.html">About us</a>
-                <a href="contact-us.html">Contact us</a>
+                <a href="contact-us.html" style="text-decoration: underline;">Contact us</a>
             </nav>
           </div>
       </div>
+      <aside class="checkout-summary hidden">
+        <div class="close-button hidden">
+            <div class="line1"></div>
+            <div class="line2"></div>
+        </div>
+        <div class="basket-items-container">
+        </div>
+        <div class="basket-footer">
+            <div id="total-container">
+                Total
+                <div class="total-value-wrap">
+                    <label>£</label>
+                    <input readonly value="0">
+                </div>
+            </div>
+            <div class="basket-options">
+                <button class="clear-basket">CLEAR</button>
+                <button class="checkout-button">CHECKOUT</button>
+            </div>
+        </div>
+      </aside>
 </body>
 <footer>
     <div class="footer-container">
@@ -70,11 +92,13 @@
         </div>
         <nav class="nav-options">
           <a href="about-us.html">About us</a>
-          <a href="contact-us.html">Contact us</a>
+          <a href="contact-us.html" style="text-decoration: underline;">Contact us</a>
           <a href="">Shipping & returns</a>
         </nav>
     </div>
   </footer>
+<script src="shopItemsData.js"></script>
 <script src="search/search-functions.js"></script>
 <script src="/mobile-nav/mobile-nav.js"></script>
+<script src="basket.js"></script>
 </html>

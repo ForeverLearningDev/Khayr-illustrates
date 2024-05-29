@@ -30,6 +30,10 @@ a:visited {
     color: white;
 }
 
+a:active {
+    text-decoration: underline;
+}
+
 .context {
     margin: 0 auto;
     width: 60%;
