@@ -1,5 +1,5 @@
 let slide = [{
-    image: '/images/illustration1Copy.jpg',
+    image: '/images/illustration1.jpg',
     customerFeedback: 'amasssinngg1',
     myResponse: 'woooooooooooooooooowwww1'
 },

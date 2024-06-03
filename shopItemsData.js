@@ -3,7 +3,8 @@ let shopItemsData = [{
     name:"Digital Illustration (One Person)",
     price: 20.00,
     desc: "Faceless illustration of one person",
-    img: "/images/illustration1.jpg"
+    img: "/images/illustration1.jpg",
+    video: "/videos/illustration1.gif"
 },
 {
     id:"Dig2",
@@ -23,7 +24,7 @@ let shopItemsData = [{
     id:"Pblk",
     name:"Acrylic Photo Block",
     price: 5.00,
-    desc: "A printed photo in a minimalistic decor piece. (a clear, solid block)",
+    desc: "A printed photo in a minimalistic block decor piece.",
     img: "/images/illustration4.jpg"
 },
 {

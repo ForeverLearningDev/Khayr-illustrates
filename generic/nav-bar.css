@@ -98,9 +98,7 @@ footer {
     left: 10px;
     top: 6px;
     cursor: text;
-    transition: top 200ms ease-in,
-    left 200ms ease-in
-    font-size 200ms ease-in;
+    transition: 200ms ease-in;
     background-color: #0a2472;
     padding: 2px;
     color: white;
@@ -122,17 +120,22 @@ footer {
 
 .subs-button {
     position: absolute;
-    right: 2px;
+    right: 10px;
     top: 2px;
     height: 100%;
     background: none;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .subs-button i {
-    font-size: 24px;
+    font-size: 40px;
     color: white;
     cursor: pointer;
+    position: inherit;
+    align-self: center;
 }
 
 .subheaders-cart-wrap{
@@ -168,14 +171,14 @@ footer {
 }
 
 .cartAmount{
-    font-size: 15px;
-    background-color: red;
+    font-size: 11px;
+    background-color: #0a2472;
     color: white;
     position:absolute;
-    top:-20px;
-    right: -8px;
-    padding: 3px;
-    border-radius: 3px;
+    bottom:-3px;
+    right: -3px;
+    padding: 3px 6px 3px 6px;
+    border-radius: 50%;
 }
 
 .cartAmount.empty {

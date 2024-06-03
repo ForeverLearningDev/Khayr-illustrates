@@ -14,12 +14,12 @@
 
 .checkout-summary.hidden {
     height: 100%;
-    width: 0px;
+    width: 400px;
     background-color: white;
     position: fixed;
     display: flex;
     top: 0;
-    right: 0;
+    right: -500px;
     box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.7);
     justify-content: center;
     z-index: 1000;
@@ -41,6 +41,11 @@
     transition: 1s;
 }
 
+.close-button i {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .close-button.hidden {
     cursor: pointer;
     position: absolute;
@@ -57,18 +62,7 @@
     transition: 1s;
 }
 
-.line1 {
-    background-color: black;
-    height: 4px;
-    width: 30px;
-    transform: rotate(48deg);
-}
-.line2 {
-    background-color: black;
-    height: 4px;
-    width: 30px;
-    transform: rotate(-48deg) translate(14px,-13px)
-}
+
 .basket-items-container {
     margin: 20px;
     margin-top: 50px;
@@ -157,7 +151,7 @@
 }
 
 .checkout-button {
-    background-color: #e0c19e;;
+    background-color: #e0c19e;
     font-weight: bold;
 }
 

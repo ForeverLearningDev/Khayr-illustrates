@@ -4,7 +4,7 @@
     width: fit-content;
     display: flex;
     flex-direction: row;
-    border: solid 2px black;
+    /* border: solid 2px black; */
     border-radius: 6px;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@
   
   .search-field.open {
     outline: none;
-    border: none;
+    border-bottom: solid 1px black;
     width: 220px;
     transition: 1s;
     background-color: transparent;
