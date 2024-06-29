@@ -2,7 +2,10 @@
     padding-top: 30px;
     display: flex;
     justify-content: center;
+    position: relative;
+    /* height: 650px; */
 }
+
 .slider .list .item {
     position: absolute;
     left: 50%;
@@ -141,8 +144,9 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    bottom: 50%;
+    /* bottom: 50%; */
     left: 50%;
+    transform: translateY(300px);
     margin-left: -300px;
     width: 600px;
     z-index: 100;
@@ -170,15 +174,17 @@
 .thumbnail {
     z-index: 11;
     /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: flex-start; */
+    flex-wrap: nowrap;
     display: grid;
-    grid-template-columns: 140px 3fr 140px 140px;
+    grid-template-columns: 80px 80px 80px 2fr 80px 80px 80px 80px;
     justify-items: stretch;
     gap: 10px;
-    padding: 0px 30px;
+    margin: 0px 30px;
     box-sizing: border-box;
+    height: 620px;
+    /* scrollbar-width: thin; */
 }
 
 .thumbnail::-webkit-scrollbar {
@@ -186,8 +192,8 @@
 }
 
 .thumbnail .item{
-    width: 130px;
-    height: 200px;
+    width: 80px;
+    height: 130px;
     filter: brightness(0.5);
     transition: 0.5s;
     flex-shrink: 0;

@@ -179,17 +179,18 @@ footer {
     right: -3px;
     padding: 3px 6px 3px 6px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .cartAmount.empty {
-    font-size: 15px;
-    background-color: red;
+    font-size: 11px;
+    background-color: #0a2472;
     color: white;
     position:absolute;
-    top:-20px;
-    right: -8px;
-    padding: 3px;
-    border-radius: 3px;
+    bottom:-3px;
+    right: -3px;
+    padding: 3px 6px 3px 6px;
+    border-radius: 50%;
     display: none;
 }
 

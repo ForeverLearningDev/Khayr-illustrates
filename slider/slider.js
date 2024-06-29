@@ -57,6 +57,106 @@ let slide = [{
     image: '/images/illustration12.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration13.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration14.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration15.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration17.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration18.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration19.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration20.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration21.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration22.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration23.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration25.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration26.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration27.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration28.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration29.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration31.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration32.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration33.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration34.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
+},
+{
+    image: '/images/illustration35.jpg',
+    customerFeedback: 'amasssinngg6',
+    myResponse: 'woooooooooooooooooowwww6'
 }]
 
 let itemList = document.querySelector('.slider .list');

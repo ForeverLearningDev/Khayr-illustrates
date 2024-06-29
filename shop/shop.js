@@ -20,7 +20,9 @@ let generateShop = () => {
             <div id=product-id-${id} class="item">
                     <div class="image-container">
                         <img class="item-image" src=${img} alt="">
-                        <img class="item-image2" src=${video} alt="">
+                        <video class="item-image2" autoplay loop>
+                        <source src=${video} type="video/mp4">
+                        </video>
                     </div>
                     <div class="details">
                         <h3>${name}</h3>
