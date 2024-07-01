@@ -1,160 +1,160 @@
 let slide = [{
-    image: '/images/illustration1.jpg',
+    image: '../images/illustration1.jpg',
     customerFeedback: 'amasssinngg1',
     myResponse: 'woooooooooooooooooowwww1'
 },
 {
-    image: '/images/illustration2.jpg',
+    image: '../images/illustration2.jpg',
     customerFeedback: 'amasssinngg2',
     myResponse: 'woooooooooooooooooowwww2'
 },
 {
-    image: '/images/illustration3.jpg',
+    image: '../images/illustration3.jpg',
     customerFeedback: 'amasssinngg3',
     myResponse: 'woooooooooooooooooowwww3'
 },
 {
-    image: '/images/illustration4.jpg',
+    image: '../images/illustration4.jpg',
     customerFeedback: 'amasssinngg4',
     myResponse: 'woooooooooooooooooowwww4'
 },
 {
-    image: '/images/illustration5.jpg',
+    image: '../images/illustration5.jpg',
     customerFeedback: 'amasssinngg5',
     myResponse: 'woooooooooooooooooowwww5'
 },
 {
-    image: '/images/illustration6.jpg',
+    image: '../images/illustration6.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration7.jpg',
+    image: '../images/illustration7.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration8.jpg',
+    image: '../images/illustration8.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration9.jpg',
+    image: '../images/illustration9.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration10.jpg',
+    image: '../images/illustration10.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration11.jpg',
+    image: '../images/illustration11.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration12.jpg',
+    image: '../images/illustration12.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration13.jpg',
+    image: '../images/illustration13.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration14.jpg',
+    image: '../images/illustration14.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration15.jpg',
+    image: '../images/illustration15.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration17.jpg',
+    image: '../images/illustration17.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration18.jpg',
+    image: '../images/illustration18.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration19.jpg',
+    image: '../images/illustration19.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration20.jpg',
+    image: '../images/illustration20.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration21.jpg',
+    image: '../images/illustration21.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration22.jpg',
+    image: '../images/illustration22.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration23.jpg',
+    image: '../images/illustration23.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration25.jpg',
+    image: '../images/illustration25.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration26.jpg',
+    image: '../images/illustration26.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration27.jpg',
+    image: '../images/illustration27.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration28.jpg',
+    image: '../images/illustration28.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration29.jpg',
+    image: '../images/illustration29.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration31.jpg',
+    image: '../images/illustration31.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration32.jpg',
+    image: '../images/illustration32.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration33.jpg',
+    image: '../images/illustration33.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration34.jpg',
+    image: '../images/illustration34.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: '/images/illustration35.jpg',
+    image: '../images/illustration35.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 }]
