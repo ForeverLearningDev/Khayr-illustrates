@@ -1,160 +1,160 @@
 let slide = [{
-    image: './images/illustration1.jpg',
+    image: 'static/images/illustration1.jpg',
     customerFeedback: 'amasssinngg1',
     myResponse: 'woooooooooooooooooowwww1'
 },
 {
-    image: './images/illustration2.jpg',
+    image: 'static/images/illustration2.jpg',
     customerFeedback: 'amasssinngg2',
     myResponse: 'woooooooooooooooooowwww2'
 },
 {
-    image: './images/illustration3.jpg',
+    image: 'static/images/illustration3.jpg',
     customerFeedback: 'amasssinngg3',
     myResponse: 'woooooooooooooooooowwww3'
 },
 {
-    image: './images/illustration4.jpg',
+    image: 'static/images/illustration4.jpg',
     customerFeedback: 'amasssinngg4',
     myResponse: 'woooooooooooooooooowwww4'
 },
 {
-    image: './images/illustration5.jpg',
+    image: 'static/images/illustration5.jpg',
     customerFeedback: 'amasssinngg5',
     myResponse: 'woooooooooooooooooowwww5'
 },
 {
-    image: './images/illustration6.jpg',
+    image: 'static/images/illustration6.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration7.jpg',
+    image: 'static/images/illustration7.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration8.jpg',
+    image: 'static/images/illustration8.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration9.jpg',
+    image: 'static/images/illustration9.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration10.jpg',
+    image: 'static/images/illustration10.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration11.jpg',
+    image: 'static/images/illustration11.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration12.jpg',
+    image: 'static/images/illustration12.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration13.jpg',
+    image: 'static/images/illustration13.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration14.jpg',
+    image: 'static/images/illustration14.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration15.jpg',
+    image: 'static/images/illustration15.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration17.jpg',
+    image: 'static/images/illustration17.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration18.jpg',
+    image: 'static/images/illustration18.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration19.jpg',
+    image: 'static/images/illustration19.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration20.jpg',
+    image: 'static/images/illustration20.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration21.jpg',
+    image: 'static/images/illustration21.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration22.jpg',
+    image: 'static/images/illustration22.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration23.jpg',
+    image: 'static/images/illustration23.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration25.jpg',
+    image: 'static/images/illustration25.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration26.jpg',
+    image: 'static/images/illustration26.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration27.jpg',
+    image: 'static/images/illustration27.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration28.jpg',
+    image: 'static/images/illustration28.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration29.jpg',
+    image: 'static/images/illustration29.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration31.jpg',
+    image: 'static/images/illustration31.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration32.jpg',
+    image: 'static/images/illustration32.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration33.jpg',
+    image: 'static/images/illustration33.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration34.jpg',
+    image: 'static/images/illustration34.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 },
 {
-    image: './images/illustration35.jpg',
+    image: 'static/images/illustration35.jpg',
     customerFeedback: 'amasssinngg6',
     myResponse: 'woooooooooooooooooowwww6'
 }]
@@ -212,17 +212,31 @@ let thumbnails = document.querySelectorAll('.thumbnail .item');
 items[0].classList.add('active');
 thumbnails[0].classList.add('active');
 
+// const leftScroll = [
+//     {transform: "translateX(-130px)"}
+// ]
+
+// const scrollTiming = {
+//     duration: 500,
+//     fill: "forwards",
+//     easing: "ease-in-out"
+//   };
+
 // config param
 let countItem = items.length;
 let itemActive = 0;
+let scrollCount = 0;
 
 // next button click event
 next.onclick = function () {
     itemActive = itemActive + 1;
     if(itemActive >= countItem) {
         itemActive = 0;
+        scrollCount = 0
     }
     showSlider();
+    thumbnailItems.scroll(scrollCount,0);
+    scrollCount +=130
 }
 
 // prev button click event

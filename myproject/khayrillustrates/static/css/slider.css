@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    /* height: 650px; */
+    height: 650px;
 }
 
 .slider .list .item {
@@ -173,27 +173,29 @@
 
 .thumbnail {
     z-index: 11;
-    /* display: flex;
+    display: flex;
     flex-direction: row;
-    justify-content: flex-start; */
+    justify-content: flex-start;
     flex-wrap: nowrap;
-    display: grid;
+    position: relative;
+    /* display: grid;
     grid-template-columns: 80px 80px 80px 2fr 80px 80px 80px 80px;
-    justify-items: stretch;
+    justify-items: stretch; */
     gap: 10px;
     margin: 0px 30px;
     box-sizing: border-box;
-    height: 620px;
-    /* scrollbar-width: thin; */
+    /* height: 620px; */
+    overflow-x: scroll;
+    scrollbar-width: none;
 }
 
-.thumbnail::-webkit-scrollbar {
-    width: 0;
+.thumbnail::-webkit-scrollbar{
+    scrollbar-width: 0px;
 }
 
 .thumbnail .item{
-    width: 80px;
-    height: 130px;
+    width: 120px;
+    height: 170px;
     filter: brightness(0.5);
     transition: 0.5s;
     flex-shrink: 0;
@@ -213,6 +215,8 @@
 .thumbnail .item.active {
     filter: brightness(1);
 }
+
+
 
 /* @media (max-width: 678px) {
     .thumbnail{
