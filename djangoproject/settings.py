@@ -30,7 +30,7 @@ DEBUG = os.getenv('DJANGO_DEBUG')
 
 import json
 
-ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '[]')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '[]')
 
 
 # Application definition
