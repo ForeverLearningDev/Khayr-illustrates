@@ -30,7 +30,8 @@ DEBUG = os.getenv('DJANGO_DEBUG')
 
 import json
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'khayrillustrates.com', 'www.khayrillustrates.com', 'khayr-illustrates-production.up.railway.app/']
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
+# ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'khayrillustrates.com', 'www.khayrillustrates.com', 'khayr-illustrates-production.up.railway.app/']
 
 
 # Application definition
