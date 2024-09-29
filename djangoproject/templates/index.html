@@ -32,7 +32,7 @@
               class="mobile-options-container"
             >
               <h1 class="mobile-menu-header" id="mobile-menu-header">Navigation</h1>
-              <a class="mobile-menu-options" href="{% url 'portfolio' %}" style="text-decoration: underline;">Portfolio</a>
+              <a class="mobile-menu-options" href="{% url 'home' %}" style="text-decoration: underline;">Portfolio</a>
               <a class="mobile-menu-options" href="{% url 'products' %}">Shop</a>
               <a class="mobile-menu-options" href="{% url 'about' %}">About us</a>
               <a class="mobile-menu-options" href="{% url 'contact' %}">Contact us</a>
@@ -51,11 +51,11 @@
           <div id="cartAmount" class="cartAmount">0</div>
         </div>
       </header>
-      <div class="logo-wrap"><a class="logo-anchor" href="{% url 'portfolio' %}"><img class="logo" src="{% static 'images/Logo.svg' %}"></a></div>
+      <div class="logo-wrap"><a class="logo-anchor" href="{% url 'home' %}"><img class="logo" src="{% static 'images/Logo.svg' %}"></a></div>
       <div class="icon-wrap">
         <!-- Navigation Items -->
           <nav class="nav-options">
-              <a href="{% url 'portfolio' %}" style="text-decoration: underline;">Portfolio</a>
+              <a href="{% url 'home' %}" style="text-decoration: underline;">Portfolio</a>
               <a href="{% url 'products' %}">Shop</a>
               <a href="{% url 'about' %}">About us</a>
               <a href="{% url 'contact' %}">Contact us</a>
