@@ -1,5 +1,5 @@
 <h1>Khayr Illustrates:</h1> </br>
-  https://foreverlearningdev.github.io/Khayr-illustrates/ </br>
+  https://khayrillustrates.com/ </br>
 <h3>Remaining fixes:</h3>
 <ul>
   <h4>Frontend</h4>
