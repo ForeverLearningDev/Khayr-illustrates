@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DJANGO_DEBUG')
 
-import json
+print(f"DEBUG: {DEBUG}")
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
 print(f"ALLOWED_HOSTS: {ALLOWED_HOSTS}")
@@ -123,9 +123,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'djangoproject/static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "djangoproject/static")]
+print(f"STATIC_URL: {STATIC_URL}")
+print(f"STATIC_ROOT: {STATIC_ROOT}")
+print(f"STATICFILES_DIRS: {STATICFILES_DIRS}")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
