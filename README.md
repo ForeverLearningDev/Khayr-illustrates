@@ -5,6 +5,7 @@
   <h4>Frontend</h4>
     <li>Content of about us page</li>
     <li>Video for E-invite product in shop</li>
+    <li>Add hyperlinked socials icons</li>
   <h4>Backend</h4>
     <li>Create a web server</li>
     <li>Search functionality</li>
